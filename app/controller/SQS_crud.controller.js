@@ -3,8 +3,8 @@ const queueURL = "https://sqs.us-east-1.amazonaws.com/282054988091/BlockchainInD
 var AWS = require('aws-sdk');
 AWS.config.update({ region: 'us-east-1' });
 AWS.config.update({
-    "accessKeyId": 'AKIAUDK6JSE5XD4VNN6V',
-    "secretAccessKey": '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'
+    "accessKeyId": '*******',
+    "secretAccessKey": '***********'
 });
 var sqs = new AWS.SQS({ apiVersion: '2012-11-05' });
 exports.create = (req, res) => {
